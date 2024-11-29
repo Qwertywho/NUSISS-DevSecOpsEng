@@ -335,7 +335,7 @@ provider digitalocean {
 provider local { }
 ```
 
-14. Create the variable script (variables.tf)
+14. Create the variable script (variables.tf) 
 
 ```
 variable do_token {
@@ -398,7 +398,7 @@ variable ssh_private_key {
 ```
 
 
-15. Create the resources script (resources.tf)
+15. Create the resources script (resources.tf) - main code, create database and deploy to engine, assign database into the dock, 3 backend to provision server, by right token should be secret
 
 ```
 # images
