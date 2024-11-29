@@ -52,6 +52,7 @@ $ git clone https://github.com/<replace this with your github userid>/bitcoin-or
 ```
 
 7. Add the following codes into the build.yml file (Cloned githubrepo ). Do not replace or remove the value `$WORKSHOP6_GITHUB_TOKEN` and `GITHUB_TOKEN`. Please take note yaml file are case sensitive and indentation sensitive.
+   --> this code deploy back to github, but can be edited to use other servers
 
 Features:
 
