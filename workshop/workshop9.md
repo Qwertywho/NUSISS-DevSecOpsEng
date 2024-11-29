@@ -7,6 +7,7 @@
 ## Linting
 
 1. Under the .github/workflows directory create a lint file with the below's content. Filename : lint.yml
+- scanning bitcoin app code quality
 
 ```
 name: "linting-tool-scan"
@@ -66,6 +67,8 @@ echo $? > /dev/null
 ## SAST
 
 1. Under the .github/workflows directory create the sast scan yml file with the below's content. Filename: sast-scan.yml
+- check if code has any vulnerability, scan dependencies, scan libaries and generate SAST report
+- in industry they use license tool
 
 ```
 name: "sast-scan"
@@ -111,6 +114,9 @@ jobs:
 ## DAST
 
 1. Under the .github/workflows directory create the dast scan yml file with the below's content. Filename: zap-scan.yml
+   - use zap proxy
+   - need to have server up, and do penetration training test
+   - to look for security issue (zap testing)
 
 ```
 name: "owasp-scan"
@@ -148,6 +154,7 @@ jobs:
 ```
 
 2. Under the scripts directory create the dast script file with the below's content. Filename: zap-script.sh
+   - application is hosted here
 
 ```
 #!/bin/bash
