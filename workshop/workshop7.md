@@ -328,7 +328,7 @@ terraform plan -var "do_token=${DO_PAT}" -var "ssh_private_key=/root/.ssh/id_rsa
 terraform apply -auto-approve -var "do_token=${DO_PAT}" -var "ssh_private_key=/root/.ssh/id_rsa" -var "codeserver_password=password123456"
 ```
 
-Get the playbook.yml from the solution github repository 
+Get the playbook.yml from the solution github repository (before you can apply this command, go to the link below, copy the playbook.yaml codes. create a playbook.yaml file and copy the codes into it -- using nano playbook.yaml)
 
 ```
 ansible-playbook playbook.yaml -i inventory.yaml
