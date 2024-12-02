@@ -382,7 +382,7 @@ docker login
 docker build --push -t <dockerhub username>/scout-demo-<grp number>:v1 .
 ```
 
-7. Enroll your account in order to enable the docker scout features
+7. Enroll your account in order to enable the docker scout features (meant for team work, only use this if doing for team work)
 
 ```
 docker scout enroll issdevsecops
